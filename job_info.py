@@ -10,7 +10,7 @@ import multiprocessing
 
 #assert opts.headless
 
-connect = psycopg2.connect('dbname = jobs user=postgres password = amqm2001')
+connect = psycopg2.connect('#connect to database')
 cursor = connect.cursor()
 connect.set_client_encoding('WIN1252')
 connect.commit()
